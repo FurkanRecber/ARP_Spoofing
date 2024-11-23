@@ -1,3 +1,6 @@
 [submodule "sslstrip2"]
 	path = sslstrip2
 	url = https://github.com/byt3bl33d3r/sslstrip2.git
+[submodule "dns2proxy"]
+	path = dns2proxy
+	url = https://github.com/singe/dns2proxy.git
