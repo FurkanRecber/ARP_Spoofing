@@ -1,5 +1,5 @@
 import scapy.all as scapy
-from scapy_http import http
+from scapy.layers import http
 import optparse
 
 
@@ -16,7 +16,7 @@ def get_user_input():
 
 
 def listen_packet(interface):
-    scapy.sniff(iface=interface, store=false, prn=process_packet)
+    scapy.sniff(iface=interface, store=False, prn=process_packet)
 
 
 def process_packet(packet):
